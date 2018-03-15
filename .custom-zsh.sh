@@ -12,3 +12,4 @@ plugins=(
   symfony2
   vim-interaction
 )
+export HISTTIMEFORMAT="%d/%m/%y %T "
