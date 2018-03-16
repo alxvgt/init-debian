@@ -1,4 +1,3 @@
-ZSH_THEME="agnoster"
 plugins=(
   git
   dotenv
@@ -12,4 +11,3 @@ plugins=(
   symfony2
   vim-interaction
 )
-export HISTTIMEFORMAT="%d/%m/%y %T "
