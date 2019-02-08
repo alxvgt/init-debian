@@ -3,7 +3,7 @@
 #to use this file without git clone, use command below (you must be in root)
 #wget -O - https://raw.githubusercontent.com/alxvgt/init-debian/master/init-zsh.sh --no-cache | bash
 
-sudo apt-get install -y zsh fonts-powerline
+sudo apt-get update && apt-get install -y zsh fonts-powerline
 zsh --version
 chsh -s $(which zsh)
 
