@@ -3,6 +3,8 @@
 #to use this file without git clone, use command below (you must be in root)
 #wget -O - https://raw.githubusercontent.com/alxvgt/init-debian/master/install-docker.sh --no-cache | bash
 
+DOCKER_VERSION=1.23.2
+
 echo -e "=== Removing previous installation ... === \n"
 sudo apt-get remove docker docker-engine docker.io
 sudo apt-get purge docker-ce
@@ -24,7 +26,7 @@ sudo add-apt-repository \
    stable"
 sudo apt-get update
 sudo apt-get install -y docker-ce
-sudo curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/${DOCKER_VERSION}/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
 echo -e "=== Test ... === \n"
