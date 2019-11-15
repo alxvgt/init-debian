@@ -8,3 +8,4 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '48e3236262b34d30969dc
 php composer-setup.php --filename=composer --install-dir='/bin'
 php -r "unlink('composer-setup.php');"
 composer self-update
+composer --version
