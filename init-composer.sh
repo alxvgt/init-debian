@@ -17,7 +17,8 @@ fi
 php composer-setup.php --quiet --filename=composer --install-dir='/bin'
 RESULT=$?
 rm composer-setup.php
-exit $RESULT
 
 composer self-update
 composer --version
+
+exit $RESULT
