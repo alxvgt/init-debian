@@ -6,3 +6,4 @@
 apt-get update && apt-get install -y samba samba-client
 
 echo "Success : see https://wiki.debian.org/SambaServerSimple to configure accesses"
+echo "In case f some problem via Windows, maybe this config must be added : https://github.com/dperson/samba/issues/41"
