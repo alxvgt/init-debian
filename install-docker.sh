@@ -3,7 +3,7 @@
 #to use this file without git clone, use command below (you must be in root)
 # apt-get update && apt-get install -y wget && wget -O - https://raw.githubusercontent.com/alxvgt/init-debian/master/install-docker.sh --no-cache | bash
 
-DOCKER_VERSION=1.25.0
+DOCKER_VERSION=2.2.2
 
 echo -e "=== Removing previous installation ... === \n"
 sudo apt-get remove docker docker-engine docker.io
